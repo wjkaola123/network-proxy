@@ -42,7 +42,7 @@ def get_proxy_list():
 def parse_valid_ip():
     url = 'http://www.baidu.com'
     proxies = {
-        "http":"http://27.40.140.21:808"
+        "http":"http://27.40.140.2:808"
     }
     resp = requests.get(url, proxies=proxies)
     print(resp.status_code)
